@@ -1,19 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./NavBar.css";
-const links = require('../../data/links.json')
+import routes from '../../data/routes'
 
-console.log(links);
+function showRoutes() {
+    return routes.map((route, index) =>
+        <li key={index}>
+            <Link to={route.path}>{route.name}</Link>
+        </li>
 
-function showLinks() {
-    return links.links.map((link, index) =>
-        <Link key={index} to={link.path}>{link.name}</Link>
     )
 }
 function NavBar() {
     return (
         <ul className="nav-list">
-            {showLinks()}
+            {showRoutes()}
         </ul>
     )
 }
