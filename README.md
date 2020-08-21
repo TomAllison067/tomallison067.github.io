@@ -6,10 +6,12 @@ My personal website - WIP React project.
     1. Bio, who I am, .etc...
     2. Spotify playlist
     3. Hobbies, interests
-    4. Any interest projects (when I start to git gud)
+    4. Cool photos
+    5. Any interest projects (when I start to git gud)
+    6. In-browser space invader game?? (really gotta git gud)
 2. Ensure responsiveness
 
-###
+***
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
