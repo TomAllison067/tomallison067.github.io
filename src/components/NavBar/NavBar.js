@@ -5,6 +5,7 @@ import routes from '../../data/routes'
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
 import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 
 
 
@@ -31,7 +32,8 @@ function NavBar() {
                 indicatorColor="primary"
                 textColor="primary"
                 onChange={handleChange}
-                centered>
+                variant="fullWidth"
+                >
                 {showRoutes()}
             </Tabs>
         </Paper>
