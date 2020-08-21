@@ -37,3 +37,23 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+}
+
+.column {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.left {
+  flex: 35%;
+  margin-right: 10px;
+}
+
+.right {
+  flex: 65%;
+}
