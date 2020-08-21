@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import "./NavBar.css";
-import routes from '../../data/routes'
+import routes from '../data/routes'
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
 import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+
+import './styles/navbar.css';
 
 
 
@@ -26,8 +26,8 @@ function NavBar() {
     }
 
     return (
-        <Paper elevation={1}>
-            <Tabs
+        <Paper className="tab-colouring" elevation={1}>
+            <Tabs className="tab-colouring"
                 value={value}
                 indicatorColor="primary"
                 textColor="primary"

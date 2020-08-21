@@ -1,11 +1,10 @@
-.NavBar {
-    position: fixed;
-    background-color: white;
-}
-
 .nav-list {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     list-style: none;
+}
+
+.MuiPaper-root {
+    margin-top: 2vh;
 }

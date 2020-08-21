@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import NavBar from './components/NavBar/NavBar'
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import Container from '@material-ui/core/Container';
 
 import routes from './data/routes'
@@ -25,6 +26,7 @@ function App() {
           ))}
         </Switch>
       </Container>
+      <Footer />
     </div>
   );
 }
