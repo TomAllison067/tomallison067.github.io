@@ -1,0 +1,12 @@
+{
+    "links": [
+        {
+            "name": "Home",
+            "path": ""
+        },
+        {
+            "name": "Foo",
+            "path": "bar"
+        }
+    ]
+}
