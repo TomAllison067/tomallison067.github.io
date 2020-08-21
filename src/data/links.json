@@ -2,11 +2,11 @@
     "links": [
         {
             "name": "Home",
-            "path": ""
+            "path": "/"
         },
         {
             "name": "Foo",
-            "path": "bar"
+            "path": "/foo"
         }
     ]
 }
