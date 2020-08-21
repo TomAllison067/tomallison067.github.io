@@ -1,3 +1,16 @@
+## Personal Site (WIP)
+My personal website - WIP React project.
+
+## Todo:
+1. Put some interesting content about me!
+    1. Bio, who I am, .etc...
+    2. Spotify playlist
+    3. Hobbies, interests
+    4. Any interest projects (when I start to git gud)
+2. Ensure responsiveness
+
+###
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
