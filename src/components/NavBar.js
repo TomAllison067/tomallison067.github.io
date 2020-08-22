@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import routes from '../data/routes'
 import Tab from '@material-ui/core/Tab';
@@ -10,9 +10,8 @@ import './styles/navbar.css';
 
 
 
-function NavBar() {
-
-
+function NavBar(props) {
+    console.log(props);
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event, newValue) => {
@@ -20,11 +19,7 @@ function NavBar() {
     };
 
     function showRoutes() {
-        return routes.map((route, index) => {
-            if (route.used) {
-                return <Tab key={index} label={route.name} component={Link} to={route.path} />
-            }
-        })
+        return routes.filter((route) => route.used).map((route, index) => <Tab key={index} label={route.name} component={Link} to={route.path} />)
     }
 
     return (

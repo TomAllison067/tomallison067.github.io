@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div>
             <Typography component="h2" variant="h4">Contact me</Typography>
-            <Typography component="p" variant="p">WIP</Typography>
+            <Typography component="p">WIP</Typography>
         </div>
     );
 }
