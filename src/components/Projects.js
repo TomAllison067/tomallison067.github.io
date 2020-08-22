@@ -20,7 +20,7 @@ function Projects() {
                 <Article title="Projects">
                     This is still a work in progress site - please bare with me, I hope to get some more content up soon.
                         Until then, here's a cool picture of my dog.
-                        <img src={millie} style={mStyle} />
+                        <img src={millie} style={mStyle} alt="Cute doggo in the fields"/>
                     
                 </Article>
             }
