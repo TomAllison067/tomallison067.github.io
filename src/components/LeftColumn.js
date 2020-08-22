@@ -1,10 +1,10 @@
 import React from 'react';
-import ProfilePic from './ProfilePic';
+import ProfileCard from './ProfileCard';
 
 function LeftColumn(props) {
     return (<div className={props.class}>
-        <h1>Foobar!</h1>
-        <ProfilePic />
+        <ProfileCard />
+        <hr />
     </div>);
 }
 
