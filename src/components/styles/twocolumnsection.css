@@ -13,13 +13,13 @@
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   
 .left-wide {
     flex-basis: 75%;
     margin-right: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 
   .right-thin {
@@ -31,11 +31,11 @@
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   
 .right-wide {
     flex-basis: 75%;
     margin-right: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
