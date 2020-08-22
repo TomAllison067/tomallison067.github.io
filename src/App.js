@@ -27,7 +27,7 @@ function App() {
       <ScopedCssBaseline>
         <div className="App">
           <NavBar />
-          <div className="row">
+          <div className="flex-container">
             <LeftColumn class="column left" />
             <div className="column right">
               <Switch>

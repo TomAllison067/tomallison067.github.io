@@ -15,7 +15,7 @@ code {
     monospace;
 }
 
-.row {
+.flex-container {
   position: relative;
   margin-top: 20px;
   display: flex;
@@ -28,9 +28,7 @@ code {
 
 .left {
   flex-basis: 25%;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding-left: 0;
+  margin: 1rem 1rem;
   word-wrap: break-word;
   text-align: center;
   padding-left: 1rem;
@@ -39,11 +37,27 @@ code {
 
 .right {
   flex-basis: 75%;
-  margin-right: 10px;
+  margin: 1rem 1rem;
 }
 
 hr {
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .left {
+    flex-basis: 100%;
+    order: 1;
+  }
+
+  .right {
+    flex-basis: 100%;
+    order: 0;
+  }
 }
