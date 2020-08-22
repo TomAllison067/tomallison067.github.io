@@ -4,7 +4,7 @@ import { Typography } from '@material-ui/core';
 function AboutMe() {
     return <div>
         <Typography component="p">
-            Hey there! I'm Tom, currently pursing a <em>BSc in Computer Science</em> at <b>Royal Holloway, University of London.</b>
+            Hey there! I'm Tom, currently pursuing a <em>BSc in Computer Science</em> at <b>Royal Holloway, University of London.</b>
         </Typography>
         <Typography component="p">
             Before that, I was a professional musician. I'm a little rusty compared to what I used to be, but I still love music and try to practice drums
