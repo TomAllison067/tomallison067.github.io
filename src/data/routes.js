@@ -30,7 +30,7 @@ const routes = [
         path: "/contact",
         component: Contact,
         exact: false,
-        used: true
+        used: false
     }
 ]
 
