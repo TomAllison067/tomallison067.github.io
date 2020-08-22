@@ -5,8 +5,7 @@ import Article from './Article';
 function Home() {
 
     return (<div>
-        <Typography component="h1" variant="h4">Hello, world.</Typography>
-        <Article>
+        <Article title="Hello, world.">
             Hey there! I'm Tom, a developer currently pursuing a <b>BSc in Computer Science</b> at
         <b> Royal Holloway, University of London.</b> My interests are varied, and I've enjoyed working on anything from robotics with Java,
          to full-stack web development with Python and NodeJS to chatbots. At the moment I'm studying a bit of machine learning. I'm still at the beginning

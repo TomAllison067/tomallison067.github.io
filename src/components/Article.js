@@ -4,10 +4,13 @@ import './styles/article.css';
 
 function Article(props) {
     return (
-        <div className="container">
-            <Typography className="article">
-                {props.children}
-            </Typography>
+        <div>
+            <Typography component="h2" variant="h4">{props.title}</Typography>
+            <div className="article-container">
+                <Typography className="article">
+                    {props.children}
+                </Typography>
+            </div>
         </div>
     );
 }

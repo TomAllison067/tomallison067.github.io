@@ -15,10 +15,9 @@ function Projects() {
 
     return (
         <div>
-            <Typography component="h2" variant="h4">Projects</Typography>
             <TwoColumnSection type="left-heavy"
             left={
-                <Article>
+                <Article title="Projects">
                     This is still a work in progress site - please bare with me, I hope to get some more content up soon.
                         Until then, here's a cool picture of my dog.
                         <img src={millie} style={mStyle} />
