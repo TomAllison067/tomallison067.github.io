@@ -22,8 +22,12 @@ function NavBar(props) {
             case "interests":
                 initialValue = 1;
                 break;
-            default:
+            case "projects":
                 initialValue = 2;
+                break;
+            default:
+                initialValue = 4;
+                break;
         }
         return initialValue;
     });

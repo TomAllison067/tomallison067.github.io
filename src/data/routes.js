@@ -23,7 +23,7 @@ const routes = [
         path: "/projects",
         component: Projects,
         exact: false,
-        used: false
+        used: true
     },
     {
         name: "Get in touch",
