@@ -5,7 +5,7 @@ import LeftColumn from './components/LeftColumn'
 import routes from './data/routes'
 import ScopedCssBaseline from '@material-ui/core/ScopedCssBaseline';
 import { ThemeProvider, createMuiTheme, responsiveFontSizes } from "@material-ui/core/styles";
-import './App.css';
+import './components/styles/App.css';
 
 function App() {
   let themeLight = createMuiTheme({

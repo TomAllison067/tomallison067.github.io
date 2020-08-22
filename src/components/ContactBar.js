@@ -8,7 +8,7 @@ function ContactBar() {
 
     return (
         <div className='contact-bar'>
-            <ul>
+            <ul className='contact-ul'>
                 <li>
                     <a href="https://github.com/TomAllison067" target="_blank" rel="noopener noreferrer">
                         {/* <i className="fab fa-github fa-2x"></i> */}

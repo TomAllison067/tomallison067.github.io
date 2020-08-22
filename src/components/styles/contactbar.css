@@ -5,7 +5,7 @@
     bottom: 5vh;
   }
 
-ul {
+.contact-ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -14,9 +14,10 @@ ul {
   padding: 0;
 }
 
-li {
+.contact-ul > li {
   margin: 0 1rem;
 }
+
 a {
   color: inherit;
 }
