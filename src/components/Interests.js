@@ -8,9 +8,12 @@ function Interests() {
     return (
         <div>
             <Typography component="h2" variant="h4">Things I Like</Typography>
-            <TwoColumnSection type="left-heavy" left={<Article content="Please bare with me - this site is only 1 day old. In the mean time,
-            here's some music you might like." />} right={<SpotifyFrame />} />
-            <TwoColumnSection type="right-heavy" left={<Article content="" />} right={<Article content="" />} />
+            <TwoColumnSection type="left-heavy" left=
+                {
+                    <Article>Please bare with me - this site is only 1 day old. In the mean time,
+                here's some music you might like. </Article >
+                }
+                right={<SpotifyFrame />} />
         </div>
     );
 }

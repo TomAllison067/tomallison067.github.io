@@ -1,7 +1,12 @@
 .article {
     position: relative;
     text-align: left;
+    top: 10%;
     width: 90%;
     left: 5%;
     right: 5%;
+}
+
+.container {
+    margin-top: 1rem;
 }
