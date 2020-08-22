@@ -20,9 +20,11 @@ function NavBar() {
     };
 
     function showRoutes() {
-        return routes.map((route, index) =>
-            <Tab key={index} label={route.name} component={Link} to={route.path} />
-        )
+        return routes.map((route, index) => {
+            if (route.used) {
+                return <Tab key={index} label={route.name} component={Link} to={route.path} />
+            }
+        })
     }
 
     return (
@@ -33,7 +35,7 @@ function NavBar() {
                 textColor="primary"
                 onChange={handleChange}
                 variant="fullWidth"
-                >
+            >
                 {showRoutes()}
             </Tabs>
         </Paper>
