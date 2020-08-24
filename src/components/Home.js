@@ -15,6 +15,8 @@ function Home() {
             This site is intended as a sort of 'about me' portfolio. My hope is that as I grow as a developer, I'll take on
             more contribute to more challenging projects and really show off what I have to offer here.<br /><br />
                 It's built in <b>React</b>, which may be a little overkill for a personal portfolio - but I wanted to learn more about React!
+
+            <b>This site is only a couple days old and still a work-in-progress so it's a little bit sparse at the moment!</b>
         </Article>
 
     </div>);
