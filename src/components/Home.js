@@ -17,8 +17,6 @@ function Home() {
                 It's built in <b>React</b>, which may be a little overkill for a personal portfolio - but I wanted to learn more about React!
                 <br />
                 <br />
-
-            <b>This site is only a couple days old and still a work-in-progress so it's a little bit sparse at the moment!</b>
         </Article>
 
     </div>);

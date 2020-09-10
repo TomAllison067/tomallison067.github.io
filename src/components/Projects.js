@@ -1,5 +1,4 @@
 import React from 'react'
-import { Typography } from '@material-ui/core';
 import TwoColumnSection from './TwoColumnSection';
 import Article from './Article';
 import millie from '../assets/millie.jpg';

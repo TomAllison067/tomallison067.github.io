@@ -1,5 +1,5 @@
 import Home from '../components/Home'
-import Interests from '../components/Interests'
+import Thoughts from '../components/Thoughts'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 
@@ -12,9 +12,9 @@ const routes = [
         used: true
     },
     {
-        name: "Things I Like",
-        path: "/interests",
-        component: Interests,
+        name: "Thoughts",
+        path: "/thoughts",
+        component: Thoughts,
         exact: false,
         used: true
     },

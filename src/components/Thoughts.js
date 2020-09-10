@@ -3,18 +3,17 @@ import SpotifyFrame from './SpotifyFrame'
 import TwoColumnSection from './TwoColumnSection';
 import Article from './Article';
 
-function Interests() {
+function Thoughts() {
     return (
         <div>
             {/* <Typography component="h2" variant="h4">Things I Like</Typography> */}
             <TwoColumnSection type="left-heavy" left=
                 {
-                    <Article title="Things I Like">Please bare with me - this site is only 1 day old. In the mean time,
-                here's some music you might like. </Article >
+                    <Article title="Things I Like">Here's some music you might like. </Article >
                 }
                 right={<SpotifyFrame />} />
         </div>
     );
 }
 
-export default Interests
+export default Thoughts
