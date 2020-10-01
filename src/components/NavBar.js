@@ -19,7 +19,7 @@ function NavBar(props) {
             case "":
                 initialValue = 0;
                 break;
-            case "interests":
+            case "thoughts":
                 initialValue = 1;
                 break;
             case "projects":
